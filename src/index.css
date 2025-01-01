@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Gilroy", sans-serif;
+}
+.heading-1 {
+    @apply absolute top-1/2 left-[33%] transform -translate-x-1/2 -translate-y-1/2 text-[13vw] leading-none tracking-tighter font-semibold text-zinc-600;
+}
+.heading-3{
+    @apply font-medium font-Poppins-fonts  
+}
+.para-1{
+    @apply text-sm mt-5 font-Poppins-fonts font-medium
+}
+.footer{
+    @apply absolute bottom-0 w-full left-0
+}
+.span{
+    @apply w-7 h-7 bg-zinc-600 flex justify-center items-center rounded-md cursor-pointer
+}
+/* .tag{
+    @apply 
+} */
+::selection{
+    /* color: rgb(232, 145, 47); */
+     color: rgb(164, 67, 254);
+}
